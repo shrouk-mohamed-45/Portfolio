@@ -1,0 +1,59 @@
+Index: build/web/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <!--\r\n    If you are serving your web app in a path other than the root, change the\r\n    href value below to reflect the base path you are serving from.\r\n\r\n    The path provided below has to start and end with a slash \"/\" in order for\r\n    it to work correctly.\r\n\r\n    For more details:\r\n    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\r\n\r\n    This is a placeholder for base href that will be replaced by the value of\r\n    the `--base-href` argument provided to `flutter build`.\r\n  -->\r\n  <base href=\"/\">\r\n\r\n  <meta charset=\"UTF-8\">\r\n  <meta content=\"IE=Edge\" http-equiv=\"X-UA-Compatible\">\r\n  <meta name=\"description\" content=\"A new Flutter project.\">\r\n\r\n  <!-- iOS meta tags & icons -->\r\n  <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\r\n  <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\r\n  <meta name=\"apple-mobile-web-app-title\" content=\"portofolio\">\r\n  <link rel=\"apple-touch-icon\" href=\"icons/Icon-192.png\">\r\n\r\n  <!-- Favicon -->\r\n  <link rel=\"icon\" type=\"image/png\" href=\"favicon.png\"/>\r\n\r\n  <title>portofolio</title>\r\n  <link rel=\"manifest\" href=\"manifest.json\">\r\n</head>\r\n<body>\r\n  <script src=\"flutter_bootstrap.js\" async></script>\r\n</body>\r\n</html>\r\n
+===================================================================
+diff --git a/build/web/index.html b/build/web/index.html
+--- a/build/web/index.html	(revision e565061f073aa305a1c61a4d2f87945bb5629298)
++++ b/build/web/index.html	(date 1761482296023)
+@@ -14,7 +14,7 @@
+     This is a placeholder for base href that will be replaced by the value of
+     the `--base-href` argument provided to `flutter build`.
+   -->
+-  <base href="/">
++  <base href="/Portfolio/">
+ 
+   <meta charset="UTF-8">
+   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+Index: .idea/libraries/Flutter_Plugins.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Flutter Plugins\" type=\"FlutterPluginsLibraryType\">\r\n    <CLASSES>\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_android-0.8.12+21\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_windows-0.9.3+4\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_macos-0.9.4+2\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_linux-0.9.3+2\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_ios-0.8.12+2\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_for_web-3.0.6\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_macos-0.2.1+2\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker-1.1.2\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_windows-0.2.1+1\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_linux-0.2.1+2\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.2.1\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_windows-2.4.1\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_linux-2.4.1\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences-2.5.3\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_foundation-2.5.4\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_web-2.4.3\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.3.0\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_android-2.4.7\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_linux-3.2.1\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_windows-3.1.4\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.3.3\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher-6.3.1\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.3.14\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_ios-6.3.3\" />\r\n      <root url=\"file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_macos-3.2.2\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES />\r\n  </library>\r\n</component>
+===================================================================
+diff --git a/.idea/libraries/Flutter_Plugins.xml b/.idea/libraries/Flutter_Plugins.xml
+--- a/.idea/libraries/Flutter_Plugins.xml	(revision e565061f073aa305a1c61a4d2f87945bb5629298)
++++ b/.idea/libraries/Flutter_Plugins.xml	(date 1761482296052)
+@@ -1,32 +1,6 @@
+ <component name="libraryTable">
+   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
+-    <CLASSES>
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_android-0.8.12+21" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_windows-0.9.3+4" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_macos-0.9.4+2" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/file_selector_linux-0.9.3+2" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_ios-0.8.12+2" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_for_web-3.0.6" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_macos-0.2.1+2" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker-1.1.2" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_windows-0.2.1+1" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_linux-0.2.1+2" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.2.1" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_windows-2.4.1" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_linux-2.4.1" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences-2.5.3" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_foundation-2.5.4" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_web-2.4.3" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.3.0" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_android-2.4.7" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_linux-3.2.1" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_windows-3.1.4" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.3.3" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher-6.3.1" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.3.14" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_ios-6.3.3" />
+-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_macos-3.2.2" />
+-    </CLASSES>
++    <CLASSES />
+     <JAVADOC />
+     <SOURCES />
+   </library>
