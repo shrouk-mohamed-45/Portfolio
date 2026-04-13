@@ -1,10 +1,11 @@
 //import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portofolio/core/uitls/app_colors.dart';
-import 'package:portofolio/core/uitls/image_manager.dart';
-import 'package:portofolio/features/portfolio/data/models/project_model.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import '../../../../core/uitls/app_colors.dart';
+import '../../../../core/uitls/image_manager.dart';
+import '../../data/models/project_model.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -24,6 +25,13 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   final List<ProjectModel> mobileProjects = [
+    ProjectModel(
+      title: "Mobdeen App",
+      image: ImageManager.mobdeen,
+      description:
+      "A mobile application designed for families to monitor and manage children's activities, and"
+          "encourage positive behavior through a structured reward system.",
+    ),
     ProjectModel(
       title: "Inventory Management App",
       image: ImageManager.inventoryApp,
@@ -45,14 +53,14 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
   final List<ProjectModel> workAndExperience = [
     ProjectModel(
-      title: "VotechX",
+      title: "Aroom advisory & labs",
       image: ImageManager.exApp,
-      description: "Flutter Developer\n Dec 2024 – Present.",
+      description: "Flutter Developer\n Dec 2025 – Present.",
     ),
     ProjectModel(
-      title: "Icore Soft",
+      title: "VotechX",
       image: ImageManager.exApp,
-      description: "Flutter Developer\n Apr 2025 – Jun 2025",
+      description: "Flutter Developer\n Dec 2024 – Oct 2025.",
     ),
     ProjectModel(
       title: "Codratech",
@@ -169,8 +177,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: 15.h,
               ),
               Text(
-                "Flutter Developer with 1+ years of hands-on experience in designing "
-                "and developing complete mobile applications. "
+                "with 2+ years of hands-on experience in designing and "
+                    "developing complete mobile applications."
                 "Proficient in building scalable, maintainable, and "
                 "clean architectures using Flutter and Dart, following best practices "
                 "\n(Clean Code & Layered Architecture).Experienced in implementing Authentication"
@@ -329,7 +337,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     SizedBox(
-                      width: 10.w,
+                      width: 8.w,
                     ),
                     CircleAvatar(
                       radius: 28,
@@ -337,6 +345,36 @@ class _HomeScreenState extends State<HomeScreen> {
                         ImageManager.gitHub,
                       ),
                       backgroundColor: Colors.grey.shade200,
+                    ),
+                    SizedBox(
+                      width: 8.w,
+                    ),
+                    const CircleAvatar(
+                      radius: 28,
+                      backgroundImage: AssetImage(
+                        ImageManager.xcode,
+                      ),
+                      backgroundColor: Colors.transparent,
+                    ),
+                    SizedBox(
+                      width: 8.w,
+                    ),
+                    const CircleAvatar(
+                      radius: 25,
+                      backgroundImage: AssetImage(
+                        ImageManager.googleConsole,
+                      ),
+                      backgroundColor: Colors.transparent,
+                    ),
+                    SizedBox(
+                      width: 8.w,
+                    ),
+                    const CircleAvatar(
+                      radius: 25,
+                      backgroundImage: AssetImage(
+                        ImageManager.appStore,
+                      ),
+                      backgroundColor: Colors.transparent,
                     ),
                   ],
                 ),

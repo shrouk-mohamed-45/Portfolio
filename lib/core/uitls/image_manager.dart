@@ -5,6 +5,10 @@ class ImageManager{
   static const String exApps ="assets/images/phone.png";
   static const String cPlusPlusLanguage ="assets/images/c++.png";
   static const String cubit ="assets/images/cubit.png";
+  static const String googleConsole ="assets/images/google_console.png";
+  static const String xcode ="assets/images/xcode.png";
+  static const String appStore ="assets/images/app_store.png";
+  static const String mobdeen ="assets/images/mobdeen.png";
   static const String dartLanguage ="assets/images/dart.png";
   static const String flutterFrameWork ="assets/images/flutter.png";
   static const String gitHub ="assets/images/gitHub.png";

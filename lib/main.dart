@@ -1,8 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:portofolio/bloc_observer.dart';
-import 'package:portofolio/core/dependency_injection/service_locator.dart' as di;
 import 'app.dart';
+import 'bloc_observer.dart';
 
 
 void main() async{

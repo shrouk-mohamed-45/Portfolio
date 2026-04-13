@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:portofolio/config/app_routes.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portofolio/features/portfolio/presentation/pages/home_screen.dart';
+
+import 'config/app_routes.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
